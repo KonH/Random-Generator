@@ -1,0 +1,20 @@
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorLibrary\bin\Debug\RandomGeneratorLibrary.dll
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorLibrary\bin\Debug\RandomGeneratorLibrary.pdb
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorLibrary\obj\Debug\RandomGeneratorLibrary.dll
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorLibrary\obj\Debug\RandomGeneratorLibrary.pdb
+E:\Current\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\bin\Debug\RandomGeneratorLibrary.dll
+E:\Current\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\bin\Debug\RandomGeneratorLibrary.pdb
+E:\Current\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Current\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\obj\Debug\RandomGeneratorLibrary.dll
+E:\Current\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\obj\Debug\RandomGeneratorLibrary.pdb
+E:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\bin\Debug\RandomGeneratorLibrary.dll
+E:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\bin\Debug\RandomGeneratorLibrary.pdb
+E:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\obj\Debug\RandomGeneratorLibrary.dll
+E:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\obj\Debug\RandomGeneratorLibrary.pdb
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\bin\Debug\RandomGeneratorLibrary.dll
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\bin\Debug\RandomGeneratorLibrary.pdb
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\obj\Debug\RandomGeneratorLibrary.csprojResolveAssemblyReference.cache
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\obj\Debug\RandomGeneratorLibrary.dll
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorLibrary\obj\Debug\RandomGeneratorLibrary.pdb

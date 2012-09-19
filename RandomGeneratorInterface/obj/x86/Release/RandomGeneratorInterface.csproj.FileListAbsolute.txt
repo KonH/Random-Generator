@@ -1,0 +1,53 @@
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorInterface.exe
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorInterface.pdb
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorLibrary.dll
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorLibrary.pdb
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\MainWindow.baml
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\MainWindow.g.cs
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\App.g.cs
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface_MarkupCompile.cache
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.g.resources
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.Properties.Resources.resources
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\GenerateResource.read.1.tlog
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\GenerateResource.write.1.tlog
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.exe
+E:\Current\Visual Studio\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.pdb
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorInterface.exe.config
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorInterface.exe
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorInterface.pdb
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\bin\Release\en-US\RandomGeneratorInterface.resources.dll
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorLibrary.dll
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorLibrary.pdb
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.csprojResolveAssemblyReference.cache
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\MainWindow.g.cs
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\App.g.cs
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface_MarkupCompile.cache
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface_MarkupCompile.lref
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\MainWindow.baml
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.g.resources
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.Properties.Resources.resources
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.Properties.Resources.en-US.resources
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.csproj.GenerateResource.Cache
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\en-US\RandomGeneratorInterface.resources.dll
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.exe
+D:\Work\Programming\Visual Studio\In work\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.pdb
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorInterface.exe.config
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorInterface.exe
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorInterface.pdb
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\bin\Release\en-US\RandomGeneratorInterface.resources.dll
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorLibrary.dll
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\bin\Release\RandomGeneratorLibrary.pdb
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.csprojResolveAssemblyReference.cache
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\MainWindow.g.cs
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\App.g.cs
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface_MarkupCompile.cache
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface_MarkupCompile.lref
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\MainWindow.baml
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.g.resources
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.Properties.Resources.resources
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.Properties.Resources.en-US.resources
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.csproj.GenerateResource.Cache
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\en-US\RandomGeneratorInterface.resources.dll
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.exe
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorInterface\obj\x86\Release\RandomGeneratorInterface.pdb

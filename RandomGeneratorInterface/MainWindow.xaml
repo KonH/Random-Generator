@@ -1,0 +1,117 @@
+﻿<Window x:Class="RandomGeneratorInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:res="clr-namespace:RandomGeneratorInterface.Properties"
+        Title="Random Generator" Height="350" Width="650" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:my="clr-namespace:RandomGeneratorLibrary;assembly=RandomGeneratorLibrary" Loaded="Window_Loaded" Closing="Window_Closing" MinHeight="330" MinWidth="400" Icon="Icon.ico" WindowStartupLocation="CenterScreen" Background="#FFEBEBEB">
+    <Window.Resources>
+        <CollectionViewSource x:Key="questionViewSource" d:DesignSource="{d:DesignInstance my:Question, CreateList=True}" />
+        <CollectionViewSource x:Key="questionAnswersViewSource" Source="{Binding Path=Answers, Source={StaticResource questionViewSource}}" />
+        <CollectionViewSource x:Key="generatorViewSource" d:DesignSource="{d:DesignInstance my:Generator, CreateList=True}" />
+        <CollectionViewSource x:Key="generatorQuestionsViewSource" Source="{Binding Path=Questions, Source={StaticResource generatorViewSource}}" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="157" />
+                <ColumnDefinition Width="300
+                                  *" />
+            </Grid.ColumnDefinitions>
+    
+            <Grid Grid.Row="1" HorizontalAlignment="Stretch" Margin="5" Name="left_grid" VerticalAlignment="Stretch" Grid.RowSpan="2" DataContext="{StaticResource questionAnswersViewSource}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="300*" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+            
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*" />
+                        <ColumnDefinition Width="50*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Content="{x:Static res:Resources.btAdd}" Grid.Column="0" Margin="5,5,5,5" Name="btAdd" Click="btAdd_Click" />
+                    <Button Content="{x:Static res:Resources.btDelete}" Grid.Column="1" Margin="5,5,5,5" Name="btDelete" IsEnabled="False" Click="btDelete_Click" />
+                </Grid>
+
+                <ListView Name="questionsListView" DataContext="generator.Questions" SelectionChanged="questionsListView_SelectionChanged">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Width="130" Header="{x:Static res:Resources.lvName}"
+                                DisplayMemberBinding="{Binding Text}"  />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+            </Grid>
+
+            <Grid Grid.Row="1" HorizontalAlignment="Stretch" Margin="5" Name="right_grid" VerticalAlignment="Stretch" Grid.Column="1" Grid.RowSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150*" />
+                    <RowDefinition Height="300*" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0" HorizontalAlignment="Stretch" Margin="5,5,5,5" Name="question_grid" VerticalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="70*" />
+                    </Grid.RowDefinitions>
+                    <Label Content="{x:Static res:Resources.lbQuestion}" Height="28" Grid.Row="0" HorizontalAlignment="Left" Margin="5,5,5,5" Name="label2" VerticalAlignment="Stretch" FontWeight="Bold" />
+                    <TextBox Grid.Row="1" HorizontalAlignment="Stretch" Margin="5,5,5,5" Name="tbQuestion" VerticalAlignment="Stretch" TextWrapping="Wrap" IsEnabled="False" />
+                </Grid>
+                <Grid Grid.Row="1" HorizontalAlignment="Stretch" Margin="5,0,5,5" Name="answers_top_grid" VerticalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="67*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" HorizontalAlignment="Stretch" Margin="5,0,5,5" Name="answers_interface_grid" VerticalAlignment="Stretch">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100*" />
+                            <ColumnDefinition Width="100*" />
+                            <ColumnDefinition Width="100*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="28" />
+                            <RowDefinition Height="40" />
+                        </Grid.RowDefinitions>
+                        <Label Content="{x:Static res:Resources.lbAnswers}" Height="28" HorizontalAlignment="Left" Margin="5,0,0,5" Name="label1" VerticalAlignment="Stretch" FontWeight="Bold" />
+                        <Button Content="{x:Static res:Resources.btAdd}" Height="28" Margin="15,0,15,5" Name="btAddAnswer" VerticalAlignment="Center"  IsEnabled="False" Click="btAddAnswer_Click" Grid.Row="1" />
+                        <Button Content="{x:Static res:Resources.btProcess}" Height="28" Margin="15,0,15,5" Name="btProcessChaces" VerticalAlignment="Center" IsEnabled="False" Click="btProcessChaces_Click" Grid.Row="1" Grid.Column="2" />
+                        <Button Content="{x:Static res:Resources.btDelete}" Height="28" IsEnabled="False" Margin="15,0,15,5" Name="btDeleteAnswer" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" Click="btDeleteAnswer_Click" />
+                    </Grid>
+
+                    <ScrollViewer Grid.Row="1">
+                    <Grid Grid.Row="1" HorizontalAlignment="Stretch" Margin="10,0,0,17" Name="answers_grid" VerticalAlignment="Stretch">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="300*" />
+                            <ColumnDefinition Width="100*" />
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Menu Height="25" Margin="5,5,0,0" Name="menuFile" VerticalAlignment="Top" HorizontalAlignment="Stretch">
+            <MenuItem Header="{x:Static res:Resources.menuFile}">
+                <MenuItem Header="{x:Static res:Resources.menuFileNew}" Click="menuClickNew"/>
+                <MenuItem Header="{x:Static res:Resources.menuFileLoad}" Click="menuClickLoad"/>
+                <MenuItem Header="{x:Static res:Resources.menuFileSave}" Click="menuClickSave"/>
+                <MenuItem Header="{x:Static res:Resources.menuFileLanguage}">
+                    <MenuItem Header="{x:Static res:Resources.menuFileLanguageEnglish}" Click="menuClickEnglish"/>
+                    <MenuItem Header="{x:Static res:Resources.menuFileLanguageRussian}" Click="menuClickRussian"/>
+                </MenuItem>
+                <MenuItem Header="{x:Static res:Resources.menuFileExit}" Click="menuClickExit"/>
+            </MenuItem>
+            <MenuItem Header="{x:Static res:Resources.menuGenerate}">
+                <MenuItem Header="{x:Static res:Resources.menuGenOutput}" Click="menuClickGenerateOutput"/>
+                <MenuItem Header="{x:Static res:Resources.menuGenFile}" Click="menuClickGenerateFile"/>
+            </MenuItem>
+            <MenuItem Header="{x:Static res:Resources.menuHelp}">
+                <MenuItem Header="{x:Static res:Resources.menuHelpHelp}" Click="menuClickHelp"/>
+                <MenuItem Header="{x:Static res:Resources.menuHelpAbout}" Click="menuClickAbout"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
