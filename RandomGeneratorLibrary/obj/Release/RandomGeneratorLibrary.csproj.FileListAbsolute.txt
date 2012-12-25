@@ -11,3 +11,4 @@ D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorLibrar
 D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorLibrary\bin\Release\RandomGeneratorLibrary.pdb
 D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorLibrary\obj\Release\RandomGeneratorLibrary.dll
 D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorLibrary\obj\Release\RandomGeneratorLibrary.pdb
+D:\Work\Programming\Visual Studio\Complete\RandomGenerator\RandomGeneratorLibrary\obj\Release\RandomGeneratorLibrary.csprojResolveAssemblyReference.cache
